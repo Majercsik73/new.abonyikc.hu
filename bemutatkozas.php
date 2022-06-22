@@ -1,15 +1,14 @@
+<?php
+    include("db_connect.php");
+?>
 <!DOCTYPE html>
 <html lang="hu">
     <head>
-        <!-- EZ EGY ISKOLAI FELADATHOZ KÉSZÍTETT WEBOLDAL!  FORRÁS: NEMZETISPORT,  NSO.HU-->
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <title>Abonyi KC -Bemutatkozás</title>
-        <!-- Latest compiled and minified CSS -->
         <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
-        <!-- jQuery library -->
         <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
-        <!-- Latest compiled JavaScript -->
         <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
         <link rel="stylesheet" href="kezilabda.css">
     </head>
@@ -21,7 +20,6 @@
                     <h1 class="akc">Abonyi Kc.</h1>
                     <a href="index.php" class="btn btn-lg">Kezdőoldal</a>
                     <a href="bemutatkozas.php" class="btn btn-lg" style="background-color: lightskyblue">Bemutatkozás</a>
-                    <!-- <a href="csapataink.html" class="btn btn-lg">Csapataink</a> -->
                     <a href="tao.php" class="btn btn-lg">TAO</a>
                     <a href="galeria.php" class="btn btn-lg">Galéria</a>
                     <a href="tamogatoink.php" class="btn btn-lg">Támogatóink</a>
@@ -99,7 +97,7 @@
                     
                 slides[slideIndex-1].style.display = "block";  
                     
-                setTimeout(showSlides, 3000); // Change image every 3 seconds
+                setTimeout(showSlides, 3000); //Kép csere: 3mp
                 }
         </script>
         <!-- GoToTop button vezérlése -->
